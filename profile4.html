@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+
+  <meta name="description">
+  <meta name="keywords">
+  <meta name="copyright">
+  
+  <title>Заявки на размещение — Instab</title>
+
+  <!-- Базовые стили -->
+  <link rel="stylesheet" href="static/css/base.css">
+
+  <!-- Стили данной страницы -->
+  <link rel="stylesheet" href="static/css/profile2.css">
+</head>
+<body>
+
+
+<div class="wrapper profile profile--campaigns">
+  <!-- header -->
+  <header class="header header--signed">
+    <div class="header__container">
+
+      <div class="header__regular">
+        <a href="#" class="header__expand hidden-desktop"></a>
+
+        <h1 class="header__title">InstaB</h1>
+
+        <a href="#" class="header__avatar hidden-desktop"><img src="static/images/public/u3.jpg" alt=""></a>
+      </div>
+
+      <div class="header__additional">
+
+        <div class="header__user hidden-mobile">
+          <a href="#" class="header__avatar"><img src="static/images/public/u3.jpg" alt=""></a>
+          <a href="#" class="header__username">viioohell</a>
+        </div>
+
+        <nav class="header__nav">
+          <!-- h-nav -->
+          <ul class="h-nav">
+
+            <li class="h-nav__item">
+              <a href="#" class="h-nav__link h-nav__link--active">
+                <svg class="h-nav__icon" width="20" height="17"><use xlink:href="static/images/icons.svg#wallet"></use></svg>
+                <span class="h-nav__label">5440 р.</span>
+              </a>
+            </li>
+
+            <li class="h-nav__item">
+              <a href="#" class="h-nav__link">
+                <svg class="h-nav__icon" width="20" height="20"><use xlink:href="static/images/icons.svg#settings"></use></svg>
+                <span class="h-nav__label">Настройки</span>
+              </a>
+            </li>
+
+            <li class="h-nav__item">
+              <a href="#" class="h-nav__link h-nav__link--logout">
+                <svg class="h-nav__icon" width="19" height="20"><use xlink:href="static/images/icons.svg#off"></use></svg>
+                <span class="h-nav__label">Выйти</span>
+              </a>
+            </li>
+
+          </ul>
+          <!-- /h-nav -->
+        </nav>
+
+      </div>
+
+    </div>
+  </header>
+  <!-- /header -->
+
+  <div class="profile__nav">
+    <ul class="p-nav hidden-mobile">
+      <li class="p-nav__item"><a href="profile1.php" class="p-nav__link ">Доступные площадки</a></li>
+      <li class="p-nav__item"><a href="profile2.php" class="p-nav__link p-nav__link--active">Заявки на размещение <span class="p-nav__label">2</span></a></li>
+      <li class="p-nav__item"><a href="#" class="p-nav__link">Мои аккаунты</a></li>
+      <li class="p-nav__item"><a href="#" class="p-nav__link">Рекламные кампании</a></li>
+    </ul>
+
+    <!-- в атрибут value следует ставить ссылку на страницу -->
+    <select class="customselect hidden-desktop hidden-mobile" data-custom-class="p-nav--mobile" data-links="true">
+      <option value="profile1.php">Доступные площадки</option>
+      <option value="profile2.php" selected="selected">Заявки на размещение (2)</option>
+      <option value="#">Мои аккаунты</option>
+      <option value="#">Рекламные кампании</option>
+    </select>
+  </div>
+
+  <div class="profile__application">
+
+    <!-- application -->
+    <div class="application application--add">
+      <div class="application__thumb">
+        <label for="" class="upload">
+          <span class="upload__icon"></span>
+          <span class="upload__text"><span class="upload__plus">+</span> Добавить фото</span>
+          <input class="upload__input" type="file">
+        </label>
+      </div>
+
+      <div class="application__text">
+        <div class="application__label">Текст записи:</div>
+        <textarea class="application__textarea textarea"></textarea>
+      </div>
+
+      <div class="application__additional">
+        <div class="application__buttons application__buttons--full">
+          <a href="#" class="btn application__btn--create">
+            <span class="btn__plus">+</span> Создать кампанию
+          </a>
+
+          <a href="#" class="btn application__btn--cancel">Отмена</a>
+        </div>
+      </div>
+    </div>
+    <!-- application -->
+    
+    <!-- application -->
+    <div class="application">
+      <div class="application__thumb">
+        <img src="static/images/public/thumb.jpg" alt="">
+      </div>
+
+      <div class="application__text">
+        <div class="application__label">Текст записи:</div>
+        <div class="application__textarea textarea">Шашлык и #guiness - это нечто. Сегодня был в замечательном @mealbar — вкусно и быстро #шашлыкмосква #mealbar. Шашлык и #guiness - это нечто. Сегодня был в замечательном @mealbar — вкусно и быстро #шашлыкмосква #mealbar</div>
+      </div>
+
+      <div class="application__additional">
+        <div class="application__buttons">
+          <a href="#" class="btn application__btn--full">Выбрать</a>
+          <a href="#" class="btn btn--bordered application__btn--half">Изменить</a>
+          <a href="#" class="btn btn--bordered application__btn--half">Удалить</a>
+        </div>
+      </div>
+    </div>
+    <!-- application -->
+
+    <!-- application -->
+    <div class="application">
+      <div class="application__thumb">
+        <img src="static/images/public/thumb.jpg" alt="">
+      </div>
+
+      <div class="application__text">
+        <div class="application__label">Текст записи:</div>
+        <div class="application__textarea textarea">Шашлык и #guiness - это нечто. Сегодня был в замечательном @mealbar — вкусно и быстро #шашлыкмосква #mealbar. Шашлык и #guiness - это нечто. Сегодня был в замечательном @mealbar — вкусно и быстро #шашлыкмосква #mealbar</div>
+      </div>
+
+      <div class="application__additional">
+        <div class="application__buttons">
+          <a href="#" class="btn application__btn--full">Выбрать</a>
+          <a href="#" class="btn btn--bordered application__btn--half">Изменить</a>
+          <a href="#" class="btn btn--bordered application__btn--half">Удалить</a>
+        </div>
+      </div>
+    </div>
+    <!-- application -->
+
+  </div>
+  
+</div>
+
+<footer class="footer">
+  <div class="container">
+
+    <!-- footer-nav -->
+    <ul class="footer-nav">
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">О системе</a></li>
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">Новости</a></li>
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">Правила <span class="hidden-mobile">сайта</span></a></li>
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">Контакты</a></li>
+    </ul>
+    <!-- /footer-nav -->
+    
+    <!-- footer-payments -->
+    <p class="footer-payments">
+      <span class="footer-payments__text">Мы принимаем:</span>
+
+      <a class="footer-payments__icon footer-payments__icon--wm"  title="Webmoney" href="#">
+        <svg width="25" height="25"><use xlink:href="static/images/icons.svg#webmoney"></use></svg>
+      </a>
+
+      <a class="footer-payments__icon footer-payments__icon--ym"  title="Яндекс.деньги" href="#">
+        <svg width="20" height="24"><use xlink:href="static/images/icons.svg#ymoney"></use></svg>
+      </a>
+    </p>
+    <!-- footer-payments -->
+
+  </div>
+</footer>
+
+<script src="static/js/vendor/jquery-1.11.2.js"></script>
+<script src="static/js/vendor/svg4everybody.min.js"></script>
+<script src="static/js/vendor/selectordie.min.js"></script>
+
+<script src="static/js/general.js"></script>
+<script src="static/js/profile4.js"></script>
+</body>
+</html>

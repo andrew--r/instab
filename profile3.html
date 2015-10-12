@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+
+  <meta name="description">
+  <meta name="keywords">
+  <meta name="copyright">
+  
+  <title>Доступные площадки — Instab</title>
+
+  <!-- Базовые стили -->
+  <link rel="stylesheet" href="static/css/base.css">
+
+  <!-- Стили данной страницы -->
+  <link rel="stylesheet" href="static/css/profile1.css">
+</head>
+<body>
+
+
+<div class="wrapper profile">
+  <!-- header -->
+  <header class="header header--signed">
+    <div class="header__container">
+
+      <div class="header__regular">
+        <a href="#" class="header__expand hidden-desktop"></a>
+
+        <h1 class="header__title">InstaB</h1>
+
+        <a href="#" class="header__avatar hidden-desktop"><img src="static/images/public/u3.jpg" alt=""></a>
+      </div>
+
+      <div class="header__additional">
+
+        <div class="header__user hidden-mobile">
+          <a href="#" class="header__avatar"><img src="static/images/public/u3.jpg" alt=""></a>
+          <a href="#" class="header__username">viioohell</a>
+        </div>
+
+        <nav class="header__nav">
+          <!-- h-nav -->
+          <ul class="h-nav">
+
+            <li class="h-nav__item">
+              <a href="#" class="h-nav__link h-nav__link--active">
+                <svg class="h-nav__icon" width="20" height="17"><use xlink:href="static/images/icons.svg#wallet"></use></svg>
+                <span class="h-nav__label">5440 р.</span>
+              </a>
+            </li>
+
+            <li class="h-nav__item">
+              <a href="#" class="h-nav__link">
+                <svg class="h-nav__icon" width="20" height="20"><use xlink:href="static/images/icons.svg#settings"></use></svg>
+                <span class="h-nav__label">Настройки</span>
+              </a>
+            </li>
+
+            <li class="h-nav__item">
+              <a href="#" class="h-nav__link h-nav__link--logout">
+                <svg class="h-nav__icon" width="19" height="20"><use xlink:href="static/images/icons.svg#off"></use></svg>
+                <span class="h-nav__label">Выйти</span>
+              </a>
+            </li>
+
+          </ul>
+          <!-- /h-nav -->
+        </nav>
+
+      </div>
+
+    </div>
+  </header>
+  <!-- /header -->
+
+  <div class="profile__nav">
+    <ul class="p-nav hidden-mobile">
+      <li class="p-nav__item"><a href="profile1.php" class="p-nav__link ">Доступные площадки</a></li>
+      <li class="p-nav__item"><a href="profile2.php" class="p-nav__link p-nav__link--active">Заявки на размещение <span class="p-nav__label">2</span></a></li>
+      <li class="p-nav__item"><a href="#" class="p-nav__link">Мои аккаунты</a></li>
+      <li class="p-nav__item"><a href="#" class="p-nav__link">Рекламные кампании</a></li>
+    </ul>
+
+    <!-- в атрибут value следует ставить ссылку на страницу -->
+    <select class="customselect hidden-desktop hidden-mobile" data-custom-class="p-nav--mobile" data-links="true">
+      <option value="profile1.php">Доступные площадки</option>
+      <option value="profile2.php" selected="selected">Заявки на размещение (2)</option>
+      <option value="#">Мои аккаунты</option>
+      <option value="#">Рекламные кампании</option>
+    </select>
+  </div>
+
+  <div class="profile__meta">
+    <div class="profile__status">Добавляйте свои аккаунты Instagram, на которых вы хотите размещать рекламные посты</div>
+  </div>
+
+  <div class="profile__list">
+    <div class="usercard">
+      <!-- usercard header -->
+      <div class="usercard__header">
+        <a href="#" class="usercard__thumb"><img src="static/images/public/u1.jpg" alt=""></a>
+
+        <div>
+          <a href="#" class="usercard__nickname">@nicesharpie</a>
+          <br>
+          <span class="usercard__location">Россия, Санкт-Петербург</span>
+        </div>
+      </div>
+      <!-- /usercard header -->
+
+      <!-- usercard stats -->
+      <div class="usercard__stats uc-stats">
+        <div class="uc-stats__column">
+          <div class="uc-stats__number">282</div>
+          <div class="uc-stats__name">публикации</div>
+        </div>
+
+        <div class="uc-stats__column">
+          <div class="uc-stats__number">13.2К</div>
+          <div class="uc-stats__name">подписчиков</div>
+        </div>
+
+        <div class="uc-stats__column">
+          <div class="uc-stats__number">673</div>
+          <div class="uc-stats__name">подписан</div>
+        </div>
+      </div>
+      <!-- /usercard stats -->
+
+      <!-- usercard topics -->
+      <div class="usercard-topics">
+        <p>
+          Темы: <a class="usercard__topic" href="#">#авто</a> <a class="usercard__topic" href="#">#девочки</a> <a class="usercard__topic" href="#">#котики</a> <a class="usercard__topic" href="#">#еда</a>
+        </p>
+      </div>
+      <!-- /usercard topics -->
+
+      <!-- usercard terms -->
+      <div class="usercard__terms">
+        <table class="uc-terms">
+          <thead></thead>
+          <tfoot></tfoot>
+          <tbody>
+            <tr class="uc-terms__row">
+              <td class="uc-terms__name">CTP&nbsp;за&nbsp;100&nbsp;подписчиков</td>
+              <td class="uc-terms__separator">-</td>
+              <td class="uc-terms__value">100 р.</td>
+            </tr>
+            <tr class="uc-terms__row">
+              <td class="uc-terms__name">Отклик</td>
+              <td class="uc-terms__separator">-</td>
+              <td class="uc-terms__value">10%</td>
+            </tr>
+            <tr class="uc-terms__row">
+              <td class="uc-terms__name">Ожидание</td>
+              <td class="uc-terms__separator">-</td>
+              <td class="uc-terms__value">2 часа</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- /usercard terms -->
+
+      <!-- usercard button -->
+      <div class="usercard__btn">
+        <a href="#" class="btn btn--bordered">750 руб.</a>
+      </div>
+      <!-- /usercard button -->
+    </div>
+
+    <div class="usercard">
+      <!-- usercard header -->
+      <div class="usercard__header">
+        <a href="#" class="usercard__thumb"><img src="static/images/public/u1.jpg" alt=""></a>
+
+        <div>
+          <a href="#" class="usercard__nickname">@nicesharpie</a>
+          <br>
+          <span class="usercard__location">Россия, Санкт-Петербург</span>
+        </div>
+      </div>
+      <!-- /usercard header -->
+
+      <!-- usercard stats -->
+      <div class="usercard__stats uc-stats">
+        <div class="uc-stats__column">
+          <div class="uc-stats__number">282</div>
+          <div class="uc-stats__name">публикации</div>
+        </div>
+
+        <div class="uc-stats__column">
+          <div class="uc-stats__number">13.2К</div>
+          <div class="uc-stats__name">подписчиков</div>
+        </div>
+
+        <div class="uc-stats__column">
+          <div class="uc-stats__number">673</div>
+          <div class="uc-stats__name">подписан</div>
+        </div>
+      </div>
+      <!-- /usercard stats -->
+
+      <!-- usercard topics -->
+      <div class="usercard-topics">
+        <p>
+          Темы: <a class="usercard__topic" href="#">#авто</a> <a class="usercard__topic" href="#">#девочки</a> <a class="usercard__topic" href="#">#котики</a> <a class="usercard__topic" href="#">#еда</a>
+        </p>
+      </div>
+      <!-- /usercard topics -->
+
+      <!-- usercard terms -->
+      <div class="usercard__terms">
+        <table class="uc-terms">
+          <thead></thead>
+          <tfoot></tfoot>
+          <tbody>
+            <tr class="uc-terms__row">
+              <td class="uc-terms__name">CTP&nbsp;за&nbsp;100&nbsp;подписчиков</td>
+              <td class="uc-terms__separator">-</td>
+              <td class="uc-terms__value">100 р.</td>
+            </tr>
+            <tr class="uc-terms__row">
+              <td class="uc-terms__name">Отклик</td>
+              <td class="uc-terms__separator">-</td>
+              <td class="uc-terms__value">10%</td>
+            </tr>
+            <tr class="uc-terms__row">
+              <td class="uc-terms__name">Ожидание</td>
+              <td class="uc-terms__separator">-</td>
+              <td class="uc-terms__value">2 часа</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- /usercard terms -->
+
+      <!-- usercard button -->
+      <div class="usercard__btn">
+        <a href="#" class="btn btn--bordered">750 руб.</a>
+      </div>
+      <!-- /usercard button -->
+    </div>
+
+    <div class="uc-form usercard">
+      <div class="uc-form__header">
+        <a href="#" class="btn btn--inst btn--bordered">
+          <!-- <svg class="btn__icon" width="" height=""><use xlink:href="static/images/icons.svg#instagram"></use></svg> -->
+          АВТОРИЗОВАТЬ АККАУНТ <span>INSTAGRAM</span></a>
+      </div>
+
+      <div class="uc-form__body">
+        <div class="uc-form__group">
+          <div class="uc-form__label">Темы</div>
+          <select class="tag-list-select" data-custom-class="uc-form__input" data-custom-id="tag-list-select">
+            <option value="">Выбрать…</option>
+            <option value="1">Еда</option>
+            <option value="2">Здоровье</option>
+            <option value="3">Авто</option>
+            <option value="4">Котики</option>
+            <option value="5">Девочки</option>
+          </select>
+        </div>
+
+        <ul class="tag-list uc-form__tags"></ul>
+
+        <div class="uc-form__group">
+          <label for="uc-country" class="uc-form__label">Страна</label>
+          <input id="uc-country" type="text" class="uc-form__input">
+        </div>
+
+        <div class="uc-form__group">
+          <label for="uc-city" class="uc-form__label">Город</label>
+          <input id="uc-city" type="text" class="uc-form__input">
+        </div>
+
+        <div class="uc-form__group">
+          <label for="uc-price" class="uc-form__label">Цена</label>
+          <input id="uc-price" type="text" class="uc-form__input">
+        </div>
+
+        <div class="uc-form__buttons">
+          <a href="#" class="btn uc-form__btn uc-form__btn--add">
+            <span class="btn__plus">+</span> Добавить аккаунт
+          </a>
+
+          <a href="#" class="btn uc-form__btn uc-form__btn--cancel">Отмена</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+
+    <!-- footer-nav -->
+    <ul class="footer-nav">
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">О системе</a></li>
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">Новости</a></li>
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">Правила <span class="hidden-mobile">сайта</span></a></li>
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">Контакты</a></li>
+    </ul>
+    <!-- /footer-nav -->
+    
+    <!-- footer-payments -->
+    <p class="footer-payments">
+      <span class="footer-payments__text">Мы принимаем:</span>
+
+      <a class="footer-payments__icon footer-payments__icon--wm"  title="Webmoney" href="#">
+        <svg width="25" height="25"><use xlink:href="static/images/icons.svg#webmoney"></use></svg>
+      </a>
+
+      <a class="footer-payments__icon footer-payments__icon--ym"  title="Яндекс.деньги" href="#">
+        <svg width="20" height="24"><use xlink:href="static/images/icons.svg#ymoney"></use></svg>
+      </a>
+    </p>
+    <!-- footer-payments -->
+
+  </div>
+</footer>
+
+<script src="static/js/vendor/jquery-1.11.2.js"></script>
+<script src="static/js/vendor/svg4everybody.min.js"></script>
+<script src="static/js/vendor/selectordie.min.js"></script>
+<script src="static/js/general.js"></script>
+<script src="static/js/profile1.js"></script>
+</body>
+</html>

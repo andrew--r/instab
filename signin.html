@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+
+  <meta name="description">
+  <meta name="keywords">
+  <meta name="copyright">
+  
+  <title>Вход — Instab</title>
+
+  <!-- Базовые стили -->
+  <link rel="stylesheet" href="static/css/base.css">
+
+  <!-- Стили данной страницы -->
+  <link rel="stylesheet" href="static/css/login.css">
+</head>
+<body>
+
+<div class="wrapper">
+  <!-- login -->
+  <div class="login">
+
+    <h1 class="login__title">InstaB</h1>
+    <p class="login__subtitle">С возвращением!</p>
+
+    <!-- l-form -->
+    <form action="#" class="l-form">
+
+      <p class="l-form__group">
+        <label for="l-email">Логин или email</label>
+        <input id="l-email" type="text">
+      </p>
+
+      <p class="l-form__group">
+        <label for="l-password">Пароль</label>
+        <input id="l-password" type="password">
+      </p>
+
+      <input class="l-form__btn btn" type="submit" value="Войти">
+
+    </form>
+    <!-- /l-form -->
+
+    <!-- l-links -->
+    <div class="l-links">
+      <a href="remind.php">Забыли пароль?</a>
+      <span class="l-links__separator">|</span>
+      <a href="register.php">Регистрация</a>
+    </div>
+    <!-- l-links -->
+
+  </div>
+  <!-- /login -->
+</div>
+
+<!-- footer -->
+<footer class="footer">
+  <div class="container">
+
+    <!-- footer-nav -->
+    <ul class="footer-nav">
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">О системе</a></li>
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">Новости</a></li>
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">Правила <span class="hidden-mobile">сайта</span></a></li>
+      <li class="footer-nav__item"><a href="#" class="footer-nav__link">Контакты</a></li>
+    </ul>
+    <!-- /footer-nav -->
+    
+    <!-- footer-payments -->
+    <p class="footer-payments">
+      <span class="footer-payments__text">Мы принимаем:</span>
+
+      <a class="footer-payments__icon footer-payments__icon--wm"  title="Webmoney" href="#">
+        <svg width="25" height="25"><use xlink:href="static/images/icons.svg#webmoney"></use></svg>
+      </a>
+
+      <a class="footer-payments__icon footer-payments__icon--ym"  title="Яндекс.деньги" href="#">
+        <svg width="20" height="24"><use xlink:href="static/images/icons.svg#ymoney"></use></svg>
+      </a>
+    </p>
+    <!-- footer-payments -->
+
+  </div>
+</footer>
+<!-- /footer -->
+
+<script src="static/js/vendor/svg4everybody.min.js"></script>
+<script>svg4everybody();</script>
+</body>
+</html>
